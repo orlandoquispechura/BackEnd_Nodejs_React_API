@@ -1,4 +1,3 @@
-create database users_db
 
 create table users(
 id serial primary key,
@@ -8,8 +7,6 @@ primer_apellido varchar(50),
 segundo_apellido varchar(50),
 fecha_nacimiento date
 );
-
-select * from users
 
 insert into users (cedula_identidad, nombre, primer_apellido, segundo_apellido, fecha_nacimiento )
 values ('8425126', 'Claudia', 'Menacho', 'Parada', '10-12-1990');
@@ -22,8 +19,6 @@ values ('8425126', 'Maria René', 'Prado', 'sanchez', '25-07-1991');
 
 
 
-SELECT AVG(EXTRACT(YEAR FROM AGE(NOW(),
-fecha_nacimiento))) AS promedio_edades FROM users;
 
 
 
