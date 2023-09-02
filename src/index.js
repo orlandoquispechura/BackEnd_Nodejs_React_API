@@ -5,17 +5,25 @@ const app = express();
 const port = 3000;
 
 const conexion = new Pool({
-  user: "postgres",
-  host: "localhost",
-  password: "postgres",
-  database: "users_db",
+  // user: "postgres",
+  // host: "localhost",
+  // password: "postgres",
+  // database: "users_db",
+  // port: "5432",
+
+  user: "nodeapi",
+  host: "dpg-cjpnitdhe99c73aj7lmg-a",
+  database: "bdapinode",
+  password: "SoXXDJrB8IxX5FWfhJWjvHTvagvvuBv3",
   port: "5432",
 });
 
 // creamos la clase de modelo para usuarios
 class Model {
   async getUsuarios() {
-    const { rows } = await conexion.query("select * from users order by id desc;");
+    const { rows } = await conexion.query(
+      "select * from users order by id desc;"
+    );
     return rows;
   }
   async getUsuario(id) {
