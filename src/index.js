@@ -5,17 +5,17 @@ const app = express();
 const port = 3000;
 
 const conexion = new Pool({
-  // user: "postgres",
-  // host: "localhost",
-  // password: "postgres",
-  // database: "users_db",
-  // port: "5432",
-
-  user: "nodeapi",
-  host: "dpg-cjpnitdhe99c73aj7lmg-a",
-  database: "bdapinode",
-  password: "SoXXDJrB8IxX5FWfhJWjvHTvagvvuBv3",
+  user: "postgres",
+  host: "localhost",
+  password: "postgres",
+  database: "userapi",
   port: "5432",
+
+  // user: "nodeapi",
+  // host: "dpg-cjpnitdhe99c73aj7lmg-a",
+  // database: "bdapinode",
+  // password: "SoXXDJrB8IxX5FWfhJWjvHTvagvvuBv3",
+  // port: "5432",
 });
 
 // creamos la clase de modelo para usuarios
