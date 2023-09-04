@@ -1,8 +1,8 @@
 # BackEnd_Nodejs_React_API
 Proyecto en Nodejs + express realizando Api (CRUD) usuarios, estado, promedioEdad
 
-// Repositorio Frontend React                https://github.com/orlandoquispechura/FrontEnd_React_Node_API
-// Repositorio Backend  Nodejs + express     https://github.com/orlandoquispechura/BackEnd_Nodejs_React_API
+- Repositorio Frontend React                https://github.com/orlandoquispechura/FrontEnd_React_Node_API
+- Repositorio Backend  Nodejs + express     https://github.com/orlandoquispechura/BackEnd_Nodejs_React_API
 
  
 1.- crear la base de datos Postgres    CREATE DATABASE usersapi
